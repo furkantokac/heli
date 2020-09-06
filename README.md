@@ -1,23 +1,20 @@
-# Qt Creator As OpenGL Development Environment
+# Heli - Simple FreeGLUT Project
 
-If you want to develop OpenGL application on Qt Creator (CMake), you can use this template.
+This project is done for fun in pure FreeGLUT, no external resources are used. src/main.cpp is the only source code file of the heli project. It is used to test my [kit-opengl project](https://github.com/furkantokac/kit-opengl) so I didn't spend so much time on the code so it kind of sucks, but may be useful to someone.
 
-
-# Usage
-
-1. Install CMake : `sudo apt-get install cmake`
-1. Install Git : `sudo apt-get install git`
-1. Install GLFW, GLAD dependencies : `sudo apt-get install xorg-dev`
-1. Install GLEW dependencies : `sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev`
-1. Install FreeGLUT dependencies : `sudo apt install libglu1-mesa-dev` 
-1. `git clone git@github.com:furkantokac/kit-opengl.git`
-1. Go to Qt Creator -> Open Project -> choose the CMakeLists.txt under opengl-dev-creator directory -> "Run" the project to test
-1. You can work on src folder. New files/folders will be automatically added to the project after you re-run the CMake. To re-run CMake, right click the project name on Qt Creator and click "Run CMake".
+![Screenshot 1](https://github.com/furkantokac/heli/blob/master/res/ss1.png)
 
 
-# Supported Libs
+# How To Play
 
-* GLFW
-* GLAD
-* GLEW
-* FreeGLUT
+* Use arrow keys to move
+* When you make score, helis go faster
+* If you loose 3 times, game over.
+
+
+# Compile From Source
+
+1. Install dependencies : `sudo apt-get install build-essential git cmake xorg-dev libxmu-dev libxi-dev libgl-dev libglu1-mesa-dev`
+1. Clone the Heli project : `git clone git@github.com:furkantokac/heli.git`
+1. Go to Qt Creator -> Open Project -> choose the CMakeLists.txt under heli directory -> "Run" the project to test
+1. Enjoy..
