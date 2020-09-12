@@ -16,5 +16,13 @@ This project is done for fun in pure FreeGLUT, no external resources are used. s
 
 1. Install dependencies : `sudo apt-get install build-essential git cmake xorg-dev libxmu-dev libxi-dev libgl-dev libglu1-mesa-dev`
 1. Clone the Heli project : `git clone git@github.com:furkantokac/heli.git`
-1. Go to Qt Creator -> Open Project -> choose the CMakeLists.txt under heli directory -> "Run" the project to test
+1. Option 1 : Just compile and run
+    1. Go to heli folder: `cd heli`
+    1. cmake CmakeList.txt
+    1. Click the compiled "Heli" file
+1. Option 2 : Run on Qt Creator
+    1. Go to Qt Creator
+    1. Open Project
+    1. Choose the CMakeLists.txt under heli directory
+    1. "Run" the project to test
 1. Enjoy..
